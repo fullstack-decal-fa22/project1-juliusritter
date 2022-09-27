@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julius Ritter Website</title>
+    <author> Julius Ritter</author>
+</head>
+<script>
+    function validateForm() {
+        let x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+  }
+}
+</script>
+
+
+
+<body>
+
+
+
+
+    <nav class="navbar">
+        <div class="container">
+          <div class="logo"><h1>JYR</h1></div>
+          <ul class="nav">
+            <li>
+              <a href="#"><h2>Home</h2></a>
+            </li>
+            <li>
+              <a href="#"><h2>Contact</h2></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+      <header class="header">
+        <div class="container">
+          <div>
+            <h1>
+                Hi, I'm 
+                <nobr>
+                    <div style="font-family: Abril Fatface", serif;>Julius.</div>
+                </nobr>
+            </h1>
+                <h3>
+            
+                    Hi, I'm a Business Student in Berlin and Berkeley.
+                </h3>
+          </div>
+          <img
+          src="skate.jpeg"
+          alt="skate"
+          height= 300rem
+          padding: 10px
+          margin: 10px/>
+        </div>
+      </header>
+  
+      <section class="boxes">
+        <div class="container">
+          <div class="box">
+            <h3><i class="fas fa-arrows-alt-v"></i> About</h3>
+            <p>
+                I am passionate about topics in the domain of Consulting, Supply Chain/Process Mining, Education, Entrepreneurship and VC. I enjoy solving problems that require a multilayered analysis to create real value. As a former professional captain of national fencing teams, I am a dedicated team player and leader, who always pushes for exchange with others, be it work-wise, academically or else. I am always happy to get in touch and discuss intriguing ideas and opportunities.
+            </p>
+          </div>
+  
+          <div class="box">
+            <h3><i class="fas fa-arrows-alt"></i>Work</h3>
+            <p>
+              So far, I have worked at multiple Consultancies and am co-Founding a <start-up class=""></start-up>
+            </p>
+          </div>
+  
+          <div class="box">
+            <h3><i class="fas fa-mobile"></i>Contact</h>
+            <p>
+              You can reach me via phone: +6465467965 or email juliusritter@icloud.com.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="image-grid">
+        <!--<img class="image-grid-col-2 image-grid-row-2" src="http://dcode.local/tmp/architecture.jpg" alt="architecture"> -->
+        <img src="1.PNG" alt="">
+        <img src="2.jpeg" alt="">
+        <img src="3.jpg" alt="">
+        <img src="http://dcode.local/tmp/architecture.jpg" alt="">
+      </div>
+
+
+
+
+      <div>
+        <h5>Leave your Email with me to join my newsletter!</h2>
+
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+
+    <button>
+        This button is useless
+    </button>
+    <br>
+
+    <a target="_blank" href="https://fullstackdecal.com/">Get educated about something more important!</a>
+
+
+
+
+    </div>
+        <h6>
+            2022, All rights reserved.
+        </h6>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+    <div class="background-image">
+
+    </div>
+    <div>
+        <h1>Hi, I'm <b>Julius</b>.</h1>
+        <h2>and I too have many projects.</h2>
+    
+    </div>
+
+
+    <div>
+        <img
+            src="skate.jpeg"
+            alt="skate"
+            height= 400rem/>
+        
+    </div>
+        <h3>About</h3>
+        <p>A short introduction on who you are and what you bring to the table.</p>
+    <div>
+    </div>
+        <h3>Work</h3>
+        <p>Some examples of work that you have done that you want to showcase. This could include past projects that you have worked on, current projects that you are currently doing, class projects, internships, and clubs!</p>
+    <div>
+    </div>
+        <h4>Contact</h4>
+        <p>A section where potential site-visitors could find your social media handles, and an email or phone number to contact you.</p>
+    <div>
+        <h5>Leave your Email with me to join my newsletter!</h2>
+
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+
+
+    </div>
+        <h6>
+            2022, All rights reserved.
+        </h6>
+    </div>
+
+
+</body>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .background-image {
+        background-image: url("background1.jpg");
+        /*background-size: contain;*/
+        background-size: cover;
+        background-repeat: no-repeat;
+        /*width: 200px;*/
+        height: 100vh;
+        /* takes complete height; 100 percent*/
+
+    }
+</style>
+-->
+</html>
+
